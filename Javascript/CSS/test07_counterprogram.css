@@ -1,0 +1,48 @@
+@font-face {
+    font-family:titan ;
+    src: url(fonts/TitanOne-Regular.ttf);
+}
+
+body{
+    background-color: darkorange;
+    font-family:titan,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+#head{
+    max-width: fit-content;
+    margin: auto;
+   
+    font-size: 32px;
+    text-shadow: 4px 4px 6px black;
+    color: white;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    color: darkblue;
+    text-shadow: 4px 4px 6px darkred;
+}
+
+#buttoncontainer{
+    text-align: center;
+}
+
+.button{
+    margin: 15px;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-family:titan,Cambria;
+    font-weight: bold;
+    background-color: blue;
+    color: orange;
+    text-shadow: 4px 4px 6px red;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover{
+    background-color:hsl(240, 100%, 70%) ;
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family:AmaticSC ;
+    src: url(fonts/AmaticSC-Regular.ttf);
+}
+
+
+body{
+    background-color: wheat;
+    font-family: AmaticSC,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 58px;
+}
+
+#head{
+    max-width: fit-content;
+    margin: auto;
+    font-size: 32px;
+    
+}
