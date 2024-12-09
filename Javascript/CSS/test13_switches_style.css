@@ -1,0 +1,17 @@
+body{
+    background-color: wheat;
+    
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+}
+
+#day{
+    padding: 20px;
+    font-size: 1em;
+}
+
+
+#submit{
+    padding: 15px;
+    font-size: 1em;
+}
