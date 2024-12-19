@@ -1,0 +1,59 @@
+@font-face {
+    font-family: TitanOne;
+    src: url(fonts/TitanOne-Regular.ttf);
+}
+
+body{
+    background-color: lightpink;
+    
+}
+
+h1{
+    color: hsl(350, 100%, 70%);
+    text-shadow: 3px 3px 4px red;
+}
+#container{
+    font-family: TitanOne,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: salmon;
+    font-weight: bold;
+    cursor: pointer;
+    color: brown;
+    text-shadow: 3px 3px 4px palevioletred;
+    font-family: TitanOne,Cambria, Cochin;
+}
+
+button:hover{
+    background-color: hsl(6, 93%, 80%);
+}
+
+button:active{
+    background-color: hsl(6, 93%, 90%);
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    font-family: TitanOne,Cambria, Cochin;
+}
+
+#diceResult{
+    margin: 15px;
+}
+
+#diceImage img{
+    margin-top: 20px;
+    margin-left: 15px;
+}
