@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test22_randompass_gen</title>
+    <link rel="stylesheet" href="CSS/test22_randompass_gen_style.css">
+</head>
+<body>
+    <div id="container">
+    <h1>Random password Generator</h1>
+    <input type="number" value=8 id="length">
+    <input type="submit" id="submit">
+    <div id="setChars">
+
+    <br><label for="number"> 
+    <input type="checkbox" name="nubmer" id="includeNumber"> 
+    Include Numbers</label>
+
+    <br><label for="lowercase">
+    <input type="checkbox" name="lowercase" id="includeLowercase">
+    Include Lowercases</label>
+
+    <br><label for="uppercase">
+    <input type="checkbox" name="uppercase" id="includeUppercase">
+    Include Uppercases</label>
+
+    <br><label for="symbol">
+    <input type="checkbox" name="symbol" id="includeSymbols">
+    Include Symbols</label>
+
+    </div>
+    <p id="passresult"></p>
+    </div>
+    <script src="JS/test22_randompass_gen.js"></script>
+</body>
+</html>
