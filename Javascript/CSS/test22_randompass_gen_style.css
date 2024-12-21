@@ -1,0 +1,43 @@
+@font-face {
+    font-family:BebasNeue ;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+body{
+    background-color: hsl(300, 76%, 80%);
+    font-size: 1.5em;
+    font-family:BebasNeue ;
+    text-shadow: 3px 3px 4px white;
+}
+
+#container{
+    text-align: center;
+}
+
+#setChars{
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+#setChars{
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+    
+}
+
+#passresult{
+    font-size: 1.7em;
+}
+
+#length{
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+#submit{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
